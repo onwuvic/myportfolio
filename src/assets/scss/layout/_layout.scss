@@ -1,0 +1,14 @@
+.layout {
+    max-width: 94%;
+    margin: 0 auto;
+    border-radius: 4rem;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 4rem 7rem 6rem;
+
+    @include responsive(big-desktop) {
+        max-width: 1320px;
+    }
+
+    // remove it
+    height: 90vh;
+}
