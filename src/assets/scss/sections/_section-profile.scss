@@ -1,0 +1,25 @@
+.section-profile {
+    padding: 2.5rem 10rem;
+    margin-top: 12rem;
+
+    @include responsive(ipad) {
+        padding: 0;
+        text-align: center;
+
+        .paragraph {
+          text-align: left;  
+        }
+
+        .u-margin-bottom-small { 
+            margin-bottom: 3rem !important;
+        }
+    }
+
+    @include responsive(tab-land) {
+        padding: 0;
+    }
+
+    @include responsive(big-desktop) {
+        padding: 2.5rem 10rem;
+    }
+}

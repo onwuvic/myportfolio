@@ -12,5 +12,10 @@
 @import 'layout/layout';
 @import 'layout/grid';
 
+// SECTIONS
+@import 'sections/section-profile';
+
 // COMPONENTS
 @import 'components/header';
+@import 'components/profile';
+@import 'components/button';

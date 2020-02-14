@@ -1,0 +1,31 @@
+.profile {
+    &__box {
+        // min-height: 100%;
+        // width: 100%;
+        padding-bottom: calc(100% - 3.5rem);
+        border-radius: 50%;
+        position: relative;
+        border: 18px solid $color-white;
+        box-shadow: 0 0 25px 0 rgba(0,0,0,.1);
+        overflow: hidden;
+    }
+
+    &__image {
+        height: auto;
+        width: auto;
+        background-image: url(../../img/cesar-rincon-1024x1024.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: block;
+        position: absolute;
+        transition: all .2s;
+        top: -18px;
+        bottom: -18px;
+        left: -18px;
+        right: -18px;
+
+        &:hover {
+            background-position: calc(50% + -4.21154px) calc(50% + 4.05181px);
+        }
+    }
+}
