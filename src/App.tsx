@@ -3,6 +3,7 @@ import React from 'react';
 import './assets/scss/main.scss';
 import Header from './components/Header/Header';
 import Profile from './components/Profile/Profile';
+import Resume from './components/Resume/Resume';
 
 const App: React.FC = () => {
   return (
@@ -10,9 +11,7 @@ const App: React.FC = () => {
       <Header />
       <main>
         <Profile />
-        <section>
-          
-        </section>
+        <Resume />
       </main>
     </div>
   );
