@@ -13,6 +13,7 @@ const Header = () => (
         </div>
 
         <div className="header__navigation">
+            <i className="header__navigation-icon">ICON</i>
             {/* <input type="checkbox" className="navigation__checkbox" id="navi-toggle" />
             <label className="navigation__button">
                 <span className="navigation__icon"></span>
@@ -21,19 +22,19 @@ const Header = () => (
             <nav className="header__navigation-nav">
                 <ul className="header__navigation-list">
                     <li className="header__navigation-item">
-                        <a href="#" className="header__navigation-link">About Me</a>
+                        <Link to={"#"} className="header__navigation-link">About Me</Link>
                     </li>
                     <li className="header__navigation-item">
-                        <a href="#" className="header__navigation-link">Resume</a>
+                        <Link to={"#"} className="header__navigation-link">Resume</Link>
                     </li>
                     <li className="header__navigation-item">
-                        <a href="#" className="header__navigation-link">Portfolio</a>
+                        <Link to={"#"} className="header__navigation-link">Portfolio</Link>
                     </li>
                     <li className="header__navigation-item">
-                        <a href="#" className="header__navigation-link">Blog</a>
+                        <Link to={"#"} className="header__navigation-link">Blog</Link>
                     </li>
                     <li className="header__navigation-item">
-                        <a href="#" className="header__navigation-link">Contact</a>
+                        <Link to={"#"} className="header__navigation-link">Contact</Link>
                     </li>
                 </ul>
             </nav>        

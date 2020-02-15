@@ -1,9 +1,14 @@
 import React from 'react';
 
-const GridItem = (props: any) => {
-    const { children, className } = props;
+type Props = {
+    children: React.ReactNode;
+    styles: string;
+}
+
+const GridItem = (props: Props) => {
+    const { children, styles } = props;
     return (
-        <div className={className}>
+        <div className={styles}>
             {children}
         </div>
     );

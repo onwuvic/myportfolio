@@ -8,7 +8,11 @@
     @include responsive(tab-port) {
         max-width: 100%;
         border-radius: 0;
-        padding: 2rem 3.5rem 3rem;
+        // padding: 2rem 3.5rem 3rem;
+    }
+
+    @include responsive(ipad) {
+        padding: 0;
     }
 
     @include responsive(big-desktop) {

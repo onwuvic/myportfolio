@@ -1,6 +1,17 @@
 .header {
     position: relative;
 
+    @include responsive(ipad) {
+        padding: 1rem 2rem;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,.08);
+        position: sticky;
+        top: 0;
+        left: 0;
+        background-color: $color-white;
+        width: 100%;
+        z-index: 999;
+    }
+
     &__logo-box {
         position: absolute;
         top: 0;
@@ -8,6 +19,10 @@
 
         a > * {
             display: inline-block;
+        }
+
+        @include responsive(ipad) {
+            position: static;
         }
     }
 
@@ -38,11 +53,32 @@
 
     // navigation
     &__navigation {
-        
+
+        &-icon {
+            display: none;
+
+            @include responsive(ipad) {
+                display: inline-block;
+                position: absolute;
+                top: 1rem;
+                right: 2rem;
+
+                // might have to remove this when replaced with icon
+                line-height: 5.2rem;
+                font-size: $default-font-size;
+                font-weight: 400;
+                color: $color-grey-dark-4;
+            }
+        }
+
         &-nav {
             position: absolute;
             top: 0;
             right: 0;
+
+            @include responsive(ipad) {
+                display: none;
+            }
         }
 
         &-list {
