@@ -1,3 +1,11 @@
+@mixin clearfix {
+    &::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
 @mixin responsive($breakpoint) {
     @if $breakpoint == phone {
         @media (max-width: 37.5em) { @content }; // 600px width < 600px
@@ -14,13 +22,5 @@
     @if $breakpoint == big-desktop {
         // @media (min-width: 88.8125em) { @content }; // 1421px  width > 1800px
         @media (min-width: 112.5em) { @content }; // 1421px  width > 1800px
-    }
-}
-
-@mixin clearfix {
-    &::after {
-        content: '';
-        display: table;
-        clear: both;
     }
 }
