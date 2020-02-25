@@ -1,0 +1,11 @@
+.section-blog {
+    
+    @include responsive(ipad) {
+        margin-top: 7rem;
+        padding: 0 3.5rem;
+
+        .heading-primary {
+            margin-left: 3rem;
+        }
+    }
+}

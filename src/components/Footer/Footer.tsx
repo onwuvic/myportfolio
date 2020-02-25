@@ -17,6 +17,12 @@ const Footer = () => (
                 <li className="footer__social-item">
                     <Link to={"#"} className="footer__social-link">Medium</Link>
                 </li>
+                <li className="footer__social-item">
+                    <Link to={"#"} className="footer__social-link">Instagram</Link>
+                </li>
+                <li className="footer__social-item">
+                    <Link to={"#"} className="footer__social-link">Email</Link>
+                </li>
             </ul>
         </div>
         <div className="footer__copyright">
