@@ -69,6 +69,14 @@ body {
     text-transform: uppercase;
 }
 
+// h4
+.heading-sub-1 {
+    font-size: $default-font-size;
+    color: $color-grey-dark-6;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
 .title {
     font-size: 2.5rem;
     font-weight: 600;

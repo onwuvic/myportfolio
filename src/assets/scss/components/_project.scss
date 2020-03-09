@@ -1,0 +1,30 @@
+.project {
+    &__list {
+        list-style: none;
+        text-align: right;
+    }
+
+    &__item {
+        display: inline-block;
+        cursor: pointer;
+        line-height: 5.2rem;
+        font-size: $default-font-size;
+        font-weight: 400;
+        color: $color-grey-dark-4;
+        opacity: .55;
+        transition: all .3s;
+
+        //change to anchor if needs be
+        &:hover, &:active {
+            opacity: 1;
+        }
+
+        &:not(:last-child) {
+            margin-right: 4rem;
+        }
+    }
+
+    &__img {
+        width: 100%;
+    }
+}

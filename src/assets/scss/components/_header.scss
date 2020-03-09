@@ -14,8 +14,8 @@
 
     &__logo-box {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 4rem;
+        left: 6rem;
 
         a > * {
             display: inline-block;
@@ -73,8 +73,8 @@
 
         &-nav {
             position: absolute;
-            top: 0;
-            right: 0;
+            top: 4rem;
+            right: 6rem;
 
             @include responsive(ipad) {
                 display: none;

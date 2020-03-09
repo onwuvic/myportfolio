@@ -11,10 +11,11 @@
 // LAYOUTS
 @import 'layout/layout';
 @import 'layout/grid';
+@import 'layout/container';
 
 // SECTIONS
 @import 'sections/section-profile';
-@import 'sections/section-resume';
+@import 'sections/section';
 @import 'sections/section-blog';
 
 // COMPONENTS
@@ -23,4 +24,6 @@
 @import 'components/button';
 @import 'components/timeline';
 @import 'components/skills';
+@import 'components/project';
+@import 'components/page-header';
 @import 'components/footer';
