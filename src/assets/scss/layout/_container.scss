@@ -1,0 +1,7 @@
+.container  {
+    padding: 6rem 7rem;
+
+    @include responsive(ipad) {
+        padding: 5rem 0rem;
+    }
+}

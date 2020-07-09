@@ -1,15 +1,15 @@
 .section-profile {
-    padding: 2.5rem 10rem;
-    margin-top: 12rem;
+    // padding: 2.5rem 10rem;
+    // margin-top: 12rem;
+    padding: 12rem 0 0;
 
-    @include responsive(tab-land) {
-        padding: 0;
-    }
+    // @include responsive(tab-land) {
+    //     padding: 0;
+    // }
 
     @include responsive(ipad) {
-        margin-top: 7rem;
-        padding: 0 3.5rem;
         text-align: center;
+        padding: 6rem 0 0;
 
         .paragraph {
           text-align: left;  
@@ -20,7 +20,7 @@
         }
     }
 
-    @include responsive(big-desktop) {
-        padding: 2.5rem 10rem;
-    }
+    // @include responsive(big-desktop) {
+    //     padding: 2.5rem 10rem;
+    // }
 }

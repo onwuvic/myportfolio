@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => (
     <header className="header">
         <div className="header__logo-box">
-            <Link to={"#"}>
+            <Link to={"/"}>
                 <div className="header__logo-symbol">V</div>
                 <div className="header__logo-text">
                     Victor <span>Onwuzor</span>
@@ -22,19 +22,19 @@ const Header = () => (
             <nav className="header__navigation-nav">
                 <ul className="header__navigation-list">
                     <li className="header__navigation-item">
-                        <Link to={"#"} className="header__navigation-link">About Me</Link>
+                        <Link to="/" className="header__navigation-link">About Me</Link>
                     </li>
                     <li className="header__navigation-item">
-                        <Link to={"#"} className="header__navigation-link">Resume</Link>
+                        <Link to="/resume" className="header__navigation-link">Resume</Link>
                     </li>
                     <li className="header__navigation-item">
-                        <Link to={"#"} className="header__navigation-link">Portfolio</Link>
+                        <Link to="/portfolio" className="header__navigation-link">Portfolio</Link>
                     </li>
                     <li className="header__navigation-item">
-                        <Link to={"#"} className="header__navigation-link">Blog</Link>
+                        <Link to={"/blog"} className="header__navigation-link">Blog</Link>
                     </li>
                     <li className="header__navigation-item">
-                        <Link to={"#"} className="header__navigation-link">Contact</Link>
+                        <Link to={"/contact"} className="header__navigation-link">Contact</Link>
                     </li>
                 </ul>
             </nav>        
