@@ -28,9 +28,6 @@ const Header = () => (
                         <Link to="/resume" className="header__navigation-link">Resume</Link>
                     </li>
                     <li className="header__navigation-item">
-                        <Link to="/portfolio" className="header__navigation-link">Portfolio</Link>
-                    </li>
-                    <li className="header__navigation-item">
                         <Link to={"/blog"} className="header__navigation-link">Blog</Link>
                     </li>
                     <li className="header__navigation-item">

@@ -7,7 +7,6 @@ import Profile from './components/Profile/Profile';
 import Resume from './components/Resume/Resume';
 import Footer from './components/Footer/Footer';
 import Blog from './components/Blog/Blog';
-import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
 
 const App: React.FC = () => {
@@ -19,7 +18,6 @@ const App: React.FC = () => {
             <Switch>
               <Route path='/' exact component={Profile} />
               <Route path='/resume' exact component={Resume} />
-              <Route path='/portfolio' exact component={Portfolio} />
               <Route path='/blog' exact component={Blog} />
               <Route path='/contact' exact component={Contact} />
             </Switch>
