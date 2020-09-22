@@ -1,0 +1,80 @@
+{
+    "experiences": [
+        {
+            "start": "Feb 2020",
+            "end": "Present",
+            "company": "LevelTen Energy, Inc.",
+            "role": "Fullstack Software Engineer",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et optio pariatur aliquid earum necessitatibus perspiciatis? Alias, nisi laborum distinctio dolores esse pariatur culpa a consequuntur illum perferendis suscipit neque sit!",
+            "link": "https://leveltenenergy.com/"
+        },
+        {
+            "start": "Jul 2019",
+            "end": "Jan 2020",
+            "company": "Sondermind",
+            "role": "Frontend Engineer",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et optio pariatur aliquid earum necessitatibus perspiciatis? Alias, nisi laborum distinctio dolores esse pariatur culpa a consequuntur illum perferendis suscipit neque sit!",
+            "link": "https://www.sondermind.com/"
+        },
+        {
+            "start": "Sep 2018",
+            "end": "Sep 2020",
+            "company": "Andela",
+            "role": "Fullstack Software Engineer",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et optio pariatur aliquid earum necessitatibus perspiciatis? Alias, nisi laborum distinctio dolores esse pariatur culpa a consequuntur illum perferendis suscipit neque sit!",
+            "link": "https://andela.com/"
+        },
+        {
+            "start": "Jan 2018",
+            "end": "Jul 2018",
+            "company": "GlossKode Technology Solution",
+            "role": "Software Engineer",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et optio pariatur aliquid earum necessitatibus perspiciatis? Alias, nisi laborum distinctio dolores esse pariatur culpa a consequuntur illum perferendis suscipit neque sit!",
+            "link": "https://glosskode.com/"
+        },
+        {
+            "start": "Jul 2017",
+            "end": "Dec 2017",
+            "company": "Marketing Magnet",
+            "role": "Web Developer",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et optio pariatur aliquid earum necessitatibus perspiciatis? Alias, nisi laborum distinctio dolores esse pariatur culpa a consequuntur illum perferendis suscipit neque sit!",
+            "link": "http://themarketingmagnet.com/"
+        }
+    ],
+    "educations": [
+        {
+            "year": "2015",
+            "school": "University of Benin",
+            "degree": "Bachelor of Science in Economics and Statistics"
+        }
+    ],
+    "skills": {
+        "basics": ["JavaScript", "TypeScript", "NodeJs", "HTML5", "CSS3/SASS"],
+        "libraries": ["ExpressJS", "SailsJS", "NestJS", "Angular 2+", "React/Redux"],
+        "databases": ["MongoDB/Mongoose", "PostgreSQL/Sequelize", "MySQL", "Redis", "SQL"],
+        "testing": ["Mocha/Chai", "Jest", "Jasmine", "Protractor"],
+        "integration": ["Circle CI", "Travis CI", "Code Climate"],
+        "infrastructure": ["Heroku", "Google Cloud Platform", "Netify", "Vercel"],
+        "api": ["REST", "GraphQL"]
+    },
+    "blogs": [
+        {
+            "title": "How to Build Web APIs with NestJS, Postgres, and Sequelize - A Beginner's Guide",
+            "body": "NestJS is an MVC framework for building efficient, scalable Node.js server-side applications. It is built with and fully supports TypeScript (yet still enables developers to code in pure JavaScript). It also combines elements of Object Oriented Programming, Functional Programming, and Functional Reactive Programming...",
+            "date": "JUNE 15, 2020",
+            "link": "https://www.freecodecamp.org/news/build-web-apis-with-nestjs-beginners-guide/"
+        },
+        {
+            "title": "How to use the addScope() method in Sequelize",
+            "body": "Sequelize scoping allows you to define commonly used queries that you can easily use later. Scopes are defined in the model definition and can be finder objects, or functions returning finder objects...",
+            "date": "DECEMBER 02, 2019",
+            "link": "https://medium.com/@victoronwuzor/how-to-use-the-addscope-method-in-sequelize-69867e613909"
+        },
+        {
+            "title": "Software Development Summary for absolute Beginners",
+            "body": "If you are a beginner in the software development ecosystem, chances are you can’t wait to start developing badass web apps, mobile or desktop apps...",
+            "date": "NOVEMBER 20, 2017",
+            "link": "https://medium.com/@victoronwuzor/software-development-for-absolute-beginners-1254cd8876f0"
+        }
+    ]
+}
