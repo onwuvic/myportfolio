@@ -1,19 +1,26 @@
 import React from 'react'
 
-// type Props = {
-//     children: React.ReactNode;
-// }
+type Props = {
+    start?: string;
+    end?: string;
+    company?: string;
+    description?: string;
+    role?: string;
+    link?: string;
+}
 
-const TimelineItem = () => (
+const TimelineItem = (props: Props) => (
     <div className="timeline__item">
-        <h5 className="timeline__period">Jan 2013 - Feb 2016</h5>
-        <span className="timeline__text">Sondermind</span>
-        <h4 className="heading-tertiary">Software Engineer</h4>
-        <p className="paragraph">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et optio pariatur aliquid earum 
-            necessitatibus perspiciatis? Alias, nisi laborum distinctio dolores esse pariatur culpa a consequuntur 
-            illum perferendis suscipit neque sit!
-        </p>
+        <h5 className="timeline__period">{props.start} - {props.end}</h5>
+        <span className="timeline__text">{props.company}</span>
+        <h4 className="heading-tertiary">{props.role}</h4>
+        <p className="paragraph">{props.description}</p>
+
+        <div className="text-right">
+            <a target="_blank" rel="noopener noreferrer" href={props.link} className="btn-sm btn-sm__primary u-margin-top-smaller">
+                Let me see ⟶
+            </a>
+        </div>
     </div>
 );
 
