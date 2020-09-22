@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => (
     <header className="header">
@@ -13,7 +15,8 @@ const Header = () => (
         </div>
 
         <div className="header__navigation">
-            <i className="header__navigation-icon">ICON</i>
+            {/* <i className="header__navigation-icon">ICON</i> */}
+            <FontAwesomeIcon className="header__navigation-icon" icon={faBars} />
             {/* <input type="checkbox" className="navigation__checkbox" id="navi-toggle" />
             <label className="navigation__button">
                 <span className="navigation__icon"></span>
