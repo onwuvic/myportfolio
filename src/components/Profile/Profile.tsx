@@ -15,7 +15,7 @@ const Profile = () => (
                 </GridItem>
                 <GridItem styles="col-6">
                     <div className="profile__detail">
-                        <h4 className="heading-sub">FullStack Software Engineer</h4>
+                        <h4 className="heading-sub">Full Stack Software Engineer</h4>
                         <h1 className="heading-primary">Victor Onwuzor</h1>
                         <p className="paragraph-lg">
                             An experienced Fullstack Software Engineer who currently work at LevelTen Energy, Seattle. 
@@ -24,7 +24,7 @@ const Profile = () => (
                         </p>
                         <div className="u-margin-top-small">
                             <Link to={"#"} className="btn btn__primary">Download CV</Link>
-                            <Link to={"#"} className="btn btn__secondary">Contact</Link>
+                            <a href="mailto:victor.onwuzor@gmail.com" className="btn btn__secondary">Contact</a>
                         </div>
                     </div>
                 </GridItem>

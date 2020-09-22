@@ -31,7 +31,7 @@ const Header = () => (
                         <Link to={"/blog"} className="header__navigation-link">Blog</Link>
                     </li>
                     <li className="header__navigation-item">
-                        <Link to={"/contact"} className="header__navigation-link">Contact</Link>
+                        <a href="mailto:victor.onwuzor@gmail.com" className="header__navigation-link">Contact</a>
                     </li>
                 </ul>
             </nav>        
