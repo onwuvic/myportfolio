@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
@@ -25,16 +25,16 @@ const Header = () => (
             <nav className="header__navigation-nav">
                 <ul className="header__navigation-list">
                     <li className="header__navigation-item">
-                        <Link to="/" className="header__navigation-link">About Me</Link>
+                        <NavLink exact to="/" className="header__navigation-link">About Me</NavLink>
                     </li>
                     <li className="header__navigation-item">
-                        <Link to="/resume" className="header__navigation-link">Resume</Link>
+                        <NavLink to="/resume" className="header__navigation-link">Resume</NavLink>
                     </li>
                     <li className="header__navigation-item">
-                        <Link to={"/blog"} className="header__navigation-link">Blog</Link>
+                        <NavLink to={"/blog"} className="header__navigation-link">Blog</NavLink>
                     </li>
                     <li className="header__navigation-item">
-                        <a href="mailto:victor.onwuzor@gmail.com" className="header__navigation-link">Contact</a>
+                        <NavLink to={"/contact"} className="header__navigation-link">Contact</NavLink>
                     </li>
                 </ul>
             </nav>        
