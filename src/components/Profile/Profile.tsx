@@ -24,7 +24,7 @@ const Profile = () => (
                         </p>
                         <div className="u-margin-top-small">
                             <Link to={"#"} className="btn btn__primary">Download CV</Link>
-                            <a href="mailto:victor.onwuzor@gmail.com" className="btn btn__secondary">Contact</a>
+                            <Link to="/contact" className="btn btn__secondary">Contact</Link>
                         </div>
                     </div>
                 </GridItem>
