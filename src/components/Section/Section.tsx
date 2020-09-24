@@ -2,12 +2,13 @@ import React from 'react';
 
 type Props = {
     children: React.ReactNode;
+    styles?: string;
 }
 
 const Section = (props: Props) => {
-    const { children } = props;
+    const { children, styles } = props;
     return (
-        <section className="section">
+        <section className={'section ' + styles}>
             {children}
         </section>
     );
