@@ -104,3 +104,31 @@
         }
     }
 }
+
+.side {
+    &__nav {
+        display: none;
+
+        @include responsive(ipad) {
+            display: block;
+            background-color: $color-white;
+            width: 100%;
+            max-width: 320px;
+            height: calc(100% - 52px);
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            left: auto;
+            top: 52px;
+            z-index: -1;
+            opacity: 1;
+            overflow: auto;
+            visibility: visible;
+            padding: 5rem;
+        }
+    }
+}
+
+.mobile-menu-hide {
+    margin-right: -100%;
+}
