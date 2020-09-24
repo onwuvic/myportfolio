@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import GridContainer from '../Grid/GridContainer';
 import HeadingSecondary from '../Headings/HeadingSecondary';
 import GridItem from '../Grid/GridItem';
@@ -9,7 +8,7 @@ import PageHeader from '../PageHeader/PageHeader';
 import * as data from '../../data/index.json'
 
 const Blog = () => (
-    <Section>
+    <Section styles="u-no-padding-bottom">
         <PageHeader title="Blog" />
         
         <Container>
