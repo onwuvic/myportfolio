@@ -12,18 +12,18 @@ import Contact from './components/Contact/Contact';
 const App: React.FC = () => {
   return (
     <div className="layout">
-      <Header />
-        <Router>
-          <main>
-            <Switch>
-              <Route path='/' exact component={Profile} />
-              <Route path='/resume' exact component={Resume} />
-              <Route path='/blog' exact component={Blog} />
-              <Route path='/contact' exact component={Contact} />
-            </Switch>
-          </main>
-        </Router>
-      <Footer />
+      <Router>
+        <Header />
+        <main>
+          <Switch>
+            <Route path='/' exact component={Profile} />
+            <Route path='/resume' exact component={Resume} />
+            <Route path='/blog' exact component={Blog} />
+            <Route path='/contact' exact component={Contact} />
+          </Switch>
+        </main>
+        <Footer />
+      </Router>
     </div>
   );
 }
