@@ -16,7 +16,7 @@ const Header = () => (
 
         <div className="header__navigation">
             {/* <i className="header__navigation-icon">ICON</i> */}
-            <FontAwesomeIcon className="header__navigation-icon" icon={faBars} />
+            <FontAwesomeIcon className="header__navigation-icon" icon={faBars} size="3x" />
             {/* <input type="checkbox" className="navigation__checkbox" id="navi-toggle" />
             <label className="navigation__button">
                 <span className="navigation__icon"></span>

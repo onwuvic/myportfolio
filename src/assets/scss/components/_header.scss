@@ -60,13 +60,8 @@
             @include responsive(ipad) {
                 display: inline-block;
                 position: absolute;
-                top: 2.5rem;
+                top: 2.3rem;
                 right: 2rem;
-
-                // might have to remove this when replaced with icon
-                line-height: 5.2rem;
-                font-size: $default-font-size;
-                font-weight: 400;
                 color: $color-grey-dark-4;
             }
         }
