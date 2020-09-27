@@ -41,10 +41,36 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Victor Onwuzor</title>
+    <style media="screen">
+
+      #loader {
+        position: absolute;
+        display: block;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        -webkit-transform: translate3d(0, -50%, 0);
+        -moz-transform: translate3d(0, -50%, 0);
+        -o-transform: translate3d(0, -50%, 0);
+        -ms-transform: translate3d(0, -50%, 0);
+        transform: translate3d(0, -50%, 0);
+        text-align: center;
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+        top: 50%; }
+  
+      </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <div id="loader">
+        <img src="/img/loader-preview.svg" alt="loading">
+      </div>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
