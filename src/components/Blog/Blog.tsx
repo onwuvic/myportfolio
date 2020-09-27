@@ -17,7 +17,7 @@ const Blog = () => (
 
                 {
                     data.blogs.map(blog => {
-                        return <GridItem styles="col-12">
+                        return <GridItem styles="col-12" key={blog.title}>
                                     <h4 className="heading-sub">{blog.date}</h4>
                                     <h2 className="title">
                                         <a target="_blank" rel="noopener noreferrer" href={blog.link} className="title__link">

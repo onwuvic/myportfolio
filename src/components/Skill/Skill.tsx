@@ -8,7 +8,7 @@ const Skill = (props: Props) => (
     <div className="skills">
         <ul>
             {
-                props.skills.map(skill => (<li>{skill}</li>))
+                props.skills.map(skill => (<li key={skill}>{skill}</li>))
             }
         </ul>
     </div>

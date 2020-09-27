@@ -22,7 +22,7 @@ const Resume = () => (
                     <Timeline>
                         {
                             data.experiences.map(experience => {
-                                return <TimelineItem {...experience} />
+                                return <TimelineItem {...experience} key={experience.company} />
                             })
                         }
                     </Timeline>
@@ -34,7 +34,7 @@ const Resume = () => (
                     <Timeline>
                         {
                             data.educations.map(education => {
-                                return <div className="timeline__item">
+                                return <div className="timeline__item" key={education.year}>
                                         <h5 className="timeline__period">{education.year}</h5>
                                         <span className="timeline__text">{education.school}</span>
                                         <h4 className="heading-tertiary">{education.degree}</h4>
