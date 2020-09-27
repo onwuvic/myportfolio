@@ -17,10 +17,16 @@ const Profile = () => (
                     <div className="profile__detail">
                         <h4 className="heading-sub">Full Stack Software Engineer</h4>
                         <h1 className="heading-primary">Victor Onwuzor</h1>
-                        <p className="paragraph-lg">
-                            An experienced Fullstack Software Engineer who currently work at LevelTen Energy, Seattle. 
-                            He has 4 years experience as a JavaScript Software Engineer building innovative solutions for globally distributed teams. 
-                            In his spare time he is an avid reader, lover of Anime and is attempting to be a Photography.
+                        <p className="paragraph-md">
+                            I am a Fullstack JavaScript Software Engineer with 4 years experience building innovative solutions for globally distributed teams.
+                        </p>
+                        <br/>
+                        <p className="paragraph-md">
+                            I have worked on Fintech, Renewable energy, Health, and Transportation products.
+                        </p>
+                        <br/>
+                        <p className="paragraph-md">
+                            In my spare time, I enjoy reading, watching Anime and I am an aspiring Photographer.
                         </p>
                         <div className="u-margin-top-small">
                             <Link to={"#"} className="btn btn__primary">Download CV</Link>
