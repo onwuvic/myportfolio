@@ -29,7 +29,7 @@ const Footer = () => (
             </ul>
         </div>
         <div className="footer__copyright">
-            <p>© 2020 Design and Develop by Victor Onwuzor.</p>
+            <p>© 2020 Design and Develop by <strong>Victor Onwuzor</strong>.</p>
         </div>
     </footer>
 );
