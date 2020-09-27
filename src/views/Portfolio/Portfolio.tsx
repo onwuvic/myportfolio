@@ -3,9 +3,9 @@ import React from 'react';
 import { Tabs } from 'antd';
 // import GridContainer from '../Grid/GridContainer';
 // import GridItem from '../Grid/GridItem';
-import Container from '../Container/Container';
-import PageHeader from '../PageHeader/PageHeader';
-import Section from '../Section/Section';
+import Container from '../../components/Container/Container';
+import PageHeader from '../../components/PageHeader/PageHeader';
+import Section from '../../components/Section/Section';
 // import Tabs from '../Tabs/Tabs';
 const { TabPane } = Tabs;
 

@@ -1,10 +1,10 @@
 import React from 'react';
-import GridContainer from '../Grid/GridContainer';
-import GridItem from '../Grid/GridItem';
-import Container from '../Container/Container';
-import PageHeader from '../PageHeader/PageHeader';
-import Section from '../Section/Section';
-import HeadingSecondary from '../Headings/HeadingSecondary';
+import GridContainer from '../../components/Grid/GridContainer';
+import GridItem from '../../components/Grid/GridItem';
+import Container from '../../components/Container/Container';
+import PageHeader from '../../components/PageHeader/PageHeader';
+import Section from '../../components/Section/Section';
+import HeadingSecondary from '../../components/Headings/HeadingSecondary';
 
 const Contact = () => (
     <Section styles="u-no-padding-bottom">

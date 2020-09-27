@@ -1,10 +1,10 @@
 import React from 'react';
-import GridContainer from '../Grid/GridContainer';
-import HeadingSecondary from '../Headings/HeadingSecondary';
-import GridItem from '../Grid/GridItem';
-import Section from '../Section/Section';
-import Container from '../Container/Container';
-import PageHeader from '../PageHeader/PageHeader';
+import GridContainer from '../../components/Grid/GridContainer';
+import HeadingSecondary from '../../components/Headings/HeadingSecondary';
+import GridItem from '../../components/Grid/GridItem';
+import Section from '../../components/Section/Section';
+import Container from '../../components/Container/Container';
+import PageHeader from '../../components/PageHeader/PageHeader';
 import * as data from '../../data/index.json'
 
 const Blog = () => (

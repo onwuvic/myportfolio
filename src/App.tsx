@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './assets/scss/main.scss';
 import Header from './components/Header/Header';
-import Profile from './components/Profile/Profile';
-import Resume from './components/Resume/Resume';
+import Profile from './views/Profile/Profile';
+import Resume from './views/Resume/Resume';
 import Footer from './components/Footer/Footer';
-import Blog from './components/Blog/Blog';
-import Contact from './components/Contact/Contact';
+import Blog from './views/Blog/Blog';
+import Contact from './views/Contact/Contact';
 
 const App: React.FC = () => {
   return (

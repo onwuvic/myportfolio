@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import GridContainer from '../Grid/GridContainer';
-import GridItem from '../Grid/GridItem';
-import Container from '../Container/Container';
+import GridContainer from '../../components/Grid/GridContainer';
+import GridItem from '../../components/Grid/GridItem';
+import Container from '../../components/Container/Container';
 
 const Profile = () => (
     <section className="section-profile">

@@ -1,14 +1,14 @@
 import React from 'react';
-import GridContainer from '../Grid/GridContainer';
-import GridItem from '../Grid/GridItem';
-import HeadingSecondary from '../Headings/HeadingSecondary';
-import Timeline from '../Timeline/Timeline';
-import TimelineItem from '../Timeline/TimelineItem';
-import Container from '../Container/Container';
-import PageHeader from '../PageHeader/PageHeader';
-import Section from '../Section/Section';
+import GridContainer from '../../components/Grid/GridContainer';
+import GridItem from '../../components/Grid/GridItem';
+import HeadingSecondary from '../../components/Headings/HeadingSecondary';
+import Timeline from '../../components/Timeline/Timeline';
+import TimelineItem from '../../components/Timeline/TimelineItem';
+import Container from '../../components/Container/Container';
+import PageHeader from '../../components/PageHeader/PageHeader';
+import Section from '../../components/Section/Section';
 import * as data from '../../data/index.json';
-import Skill from '../Skill/Skill';
+import Skill from '../../components/Skill/Skill';
 
 const Resume = () => (
     <Section>
