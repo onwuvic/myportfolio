@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './assets/scss/main.scss';
 import Header from './components/Header/Header';
-import Profile from './views/Profile/Profile';
+import Home from './views/Home/Home';
 import Resume from './views/Resume/Resume';
 import Footer from './components/Footer/Footer';
 import Blog from './views/Blog/Blog';
@@ -16,7 +16,7 @@ const App: React.FC = () => {
         <Header />
         <main>
           <Switch>
-            <Route path='/' exact component={Profile} />
+            <Route path='/' exact component={Home} />
             <Route path='/resume' exact component={Resume} />
             <Route path='/blog' exact component={Blog} />
             <Route path='/contact' exact component={Contact} />

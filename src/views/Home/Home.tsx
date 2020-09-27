@@ -4,7 +4,7 @@ import GridContainer from '../../components/Grid/GridContainer';
 import GridItem from '../../components/Grid/GridItem';
 import Container from '../../components/Container/Container';
 
-const Profile = () => (
+const Home = () => (
     <section className="section-profile">
         <Container>
             <GridContainer>
@@ -39,4 +39,4 @@ const Profile = () => (
     </section>
 )
 
-export default Profile;
+export default Home;
