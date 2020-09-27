@@ -13,7 +13,7 @@
             "end": "Jan 2020",
             "company": "Sondermind (Denver, USA. Remote)",
             "role": "Frontend Engineer",
-            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et optio pariatur aliquid earum necessitatibus perspiciatis? Alias, nisi laborum distinctio dolores esse pariatur culpa a consequuntur illum perferendis suscipit neque sit!",
+            "description": "I worked as an Angular frontend engineer building the new interactive payment process user interface that powers invoicing, installment payment, virtual card management, and payment with Stripe API and Insurance plan.",
             "link": "https://www.sondermind.com/"
         },
         {
@@ -21,7 +21,7 @@
             "end": "Sep 2020",
             "company": "Andela (Lagos, Nigeria. Remote)",
             "role": "Fullstack Software Engineer",
-            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et optio pariatur aliquid earum necessitatibus perspiciatis? Alias, nisi laborum distinctio dolores esse pariatur culpa a consequuntur illum perferendis suscipit neque sit!",
+            "description": "I worked as a full-stack engineer in a remote distributed team to build Andela’s in-house Cab booking Slack bot and web application. I also worked with Andela Partners as an integral part of their tech team to build innovative solutions.",
             "link": "https://andela.com/"
         },
         {
@@ -29,7 +29,7 @@
             "end": "Jul 2018",
             "company": "GlossKode Technology Solution (Lagos, Nigeria)",
             "role": "Software Engineer",
-            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et optio pariatur aliquid earum necessitatibus perspiciatis? Alias, nisi laborum distinctio dolores esse pariatur culpa a consequuntur illum perferendis suscipit neque sit!",
+            "description": "I build a fintech pension application that helps pension owners carry out banking transactions like fund transfer, utility bills transactions at the comfort of their homes.",
             "link": "https://glosskode.com/"
         },
         {
@@ -37,7 +37,7 @@
             "end": "Dec 2017",
             "company": "Marketing Magnet (Lagos, Nigeria)",
             "role": "Web Developer",
-            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et optio pariatur aliquid earum necessitatibus perspiciatis? Alias, nisi laborum distinctio dolores esse pariatur culpa a consequuntur illum perferendis suscipit neque sit!",
+            "description": "I redesign the company website to a new and more responsive design and build the company's client's website.",
             "link": "http://themarketingmagnet.com/"
         }
     ],
