@@ -9,11 +9,15 @@ const Header = () => {
     const toggleClass = () => {
         setActive(!isClose);
     };
+
+    const closeSideBar = () => {
+        setActive(true);
+    };
     
     return (
         <header className="header">
             <div className="header__logo-box">
-                <Link to={"/"} onClick={toggleClass}>
+                <Link to={"/"} onClick={closeSideBar}>
                     <div className="header__logo-symbol">V</div>
                     <div className="header__logo-text">
                         Victor <span>Onwuzor</span>
@@ -28,16 +32,16 @@ const Header = () => {
                 <nav className={`side__nav animate ${isClose ? 'mobile-menu-hide': ''}`}>
                     <ul className="side__nav-list">
                         <li className="side__nav-item">
-                            <NavLink exact to="/" className="side__nav-link" onClick={toggleClass}>About Me</NavLink>
+                            <NavLink exact to="/" className="side__nav-link" onClick={closeSideBar}>About Me</NavLink>
                         </li>
                         <li className="side__nav-item">
-                            <NavLink to="/resume" className="side__nav-link" onClick={toggleClass}>Resume</NavLink>
+                            <NavLink to="/resume" className="side__nav-link" onClick={closeSideBar}>Resume</NavLink>
                         </li>
                         <li className="side__nav-item">
-                            <NavLink to={"/blog"} className="side__nav-link" onClick={toggleClass}>Blog</NavLink>
+                            <NavLink to={"/blog"} className="side__nav-link" onClick={closeSideBar}>Blog</NavLink>
                         </li>
                         <li className="side__nav-item">
-                            <NavLink to={"/contact"} className="side__nav-link" onClick={toggleClass}>Contact</NavLink>
+                            <NavLink to={"/contact"} className="side__nav-link" onClick={closeSideBar}>Contact</NavLink>
                         </li>
                     </ul>
                 </nav>
