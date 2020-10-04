@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import GridContainer from '../../components/Grid/GridContainer';
 import GridItem from '../../components/Grid/GridItem';
 import Container from '../../components/Container/Container';
+import resume from '../../assets/img/resume.pdf';
 
 const Home = () => (
     <section className="section-profile">
@@ -12,6 +13,7 @@ const Home = () => (
                     <div className="profile__box">
                         <div className="profile__image"></div>
                     </div>
+                    {/* <img src={Resume} alt="" className="thd" /> */}
                 </GridItem>
                 <GridItem styles="col-6">
                     <div className="profile__detail">
@@ -29,7 +31,10 @@ const Home = () => (
                             In my spare time, I enjoy reading, watching Anime and I am an aspiring Photographer.
                         </p>
                         <div className="u-margin-top-small">
-                            <Link to={"#"} className="btn btn__primary">Download CV</Link>
+                            {/* <Link to={"#"} className="btn btn__primary">Download CV</Link> */}
+                            <a target="_blank" rel="noopener noreferrer" href={resume} className="btn btn__primary" download="Resume">
+                                Download CV
+                            </a>
                             <Link to="/contact" className="btn btn__secondary">Contact</Link>
                         </div>
                     </div>
