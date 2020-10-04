@@ -9,12 +9,19 @@ import Footer from './components/Footer/Footer';
 import Blog from './views/Blog/Blog';
 import Contact from './views/Contact/Contact';
 
+const isMobileMenu = function() {
+  if (window.innerWidth > 991) {
+    return false;
+  }
+  return true;
+}
+
 const App: React.FC = () => {
   return (
-    <div className="layout">
+    <div className={`layout ${isMobileMenu() ? '': 'transition-flip-in-right'}`}>
       <Router>
         <Header />
-        <main>
+        <main className={`${isMobileMenu() ? 'transition-flip-in-right': ''}`}>
           <Switch>
             <Route path='/' exact component={Home} />
             <Route path='/resume' exact component={Resume} />
