@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <header className="header">
             <div className="header__logo-box">
-                <Link to={"/"}>
+                <Link to={"/"} onClick={toggleClass}>
                     <div className="header__logo-symbol">V</div>
                     <div className="header__logo-text">
                         Victor <span>Onwuzor</span>
@@ -25,9 +25,22 @@ const Header = () => {
                 <FontAwesomeIcon className="header__navigation-icon" icon={faBars} size="3x" onClick={toggleClass} />
         
                 {/* Mobile side nav */}
-                <div className={`side__nav animate ${isClose ? 'mobile-menu-hide': ''}`}>
-                    The side nav
-                </div>
+                <nav className={`side__nav animate ${isClose ? 'mobile-menu-hide': ''}`}>
+                    <ul className="side__nav-list">
+                        <li className="side__nav-item">
+                            <NavLink exact to="/" className="side__nav-link" onClick={toggleClass}>About Me</NavLink>
+                        </li>
+                        <li className="side__nav-item">
+                            <NavLink to="/resume" className="side__nav-link" onClick={toggleClass}>Resume</NavLink>
+                        </li>
+                        <li className="side__nav-item">
+                            <NavLink to={"/blog"} className="side__nav-link" onClick={toggleClass}>Blog</NavLink>
+                        </li>
+                        <li className="side__nav-item">
+                            <NavLink to={"/contact"} className="side__nav-link" onClick={toggleClass}>Contact</NavLink>
+                        </li>
+                    </ul>
+                </nav>
                 
                 <nav className="header__navigation-nav">
                     <ul className="header__navigation-list">

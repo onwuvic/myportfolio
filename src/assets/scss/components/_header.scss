@@ -124,7 +124,31 @@
             opacity: 1;
             overflow: auto;
             visibility: visible;
-            padding: 5rem;
+            padding: 4rem;
+        }
+
+        &-list {
+            list-style: none;
+            font-size: $default-font-size;;
+        }
+
+        &-item {
+            display: block;
+        }
+
+        &-link {
+            &:link, &:visited {
+                line-height: 5.2rem;
+                font-size: $default-font-size;
+                font-weight: 400;
+                color: $color-grey-dark-4;
+                opacity: .55;
+                transition: all .3s;
+            }
+
+            &:hover, &:active {
+                opacity: 1;
+            }
         }
     }
 }
