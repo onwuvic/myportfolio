@@ -5,7 +5,7 @@
             "end": "Present",
             "company": "LevelTen Energy, Inc. (Washington, USA. Remote)",
             "role": "Fullstack Software Engineer",
-            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et optio pariatur aliquid earum necessitatibus perspiciatis? Alias, nisi laborum distinctio dolores esse pariatur culpa a consequuntur illum perferendis suscipit neque sit!",
+            "description": "Redesign the UI and build API's to integrate European markets into LevelTen platforms.",
             "link": "https://leveltenenergy.com/"
         },
         {
@@ -50,7 +50,7 @@
     ],
     "skills": {
         "basics": ["JavaScript", "TypeScript", "NodeJs", "HTML5", "CSS3/SASS"],
-        "libraries": ["ExpressJS", "SailsJS", "NestJS", "Angular 2+", "React/Redux"],
+        "libraries": ["ExpressJS", "SailsJS", "NestJS", "Fastify", "Angular 2+", "React/Redux"],
         "databases": ["MongoDB/Mongoose", "PostgreSQL/Sequelize", "MySQL", "Redis", "SQL"],
         "testing": ["Mocha/Chai", "Jest", "Jasmine", "Protractor"],
         "integration": ["Circle CI", "Travis CI", "Code Climate"],
