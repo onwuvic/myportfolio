@@ -12,7 +12,6 @@ const Home = () => (
                     <div className="profile__box">
                         <div className="profile__image"></div>
                     </div>
-                    {/* <img src={Resume} alt="" className="thd" /> */}
                 </GridItem>
                 <GridItem styles="col-6">
                     <div className="profile__detail">
@@ -30,8 +29,7 @@ const Home = () => (
                             In my spare time, I enjoy reading, watching Anime and I am an aspiring Photographer.
                         </p>
                         <div className="u-margin-top-small">
-                            {/* <Link to={"#"} className="btn btn__primary">Download CV</Link> */}
-                            <a target="_blank" rel="noopener noreferrer" href="../../assets/img/resume.pdf" className="btn btn__primary">
+                            <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/12vEayHOX-WfZkvOZ95nSB6yX29tguVFg/view?usp=sharing" className="btn btn__primary">
                                 Download CV
                             </a>
                             <Link to="/contact" className="btn btn__secondary">Contact</Link>
