@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import GridContainer from '../../components/Grid/GridContainer';
 import GridItem from '../../components/Grid/GridItem';
 import Container from '../../components/Container/Container';
-import resume from '../../assets/img/resume.pdf';
 
 const Home = () => (
     <section className="section-profile">
@@ -32,7 +31,7 @@ const Home = () => (
                         </p>
                         <div className="u-margin-top-small">
                             {/* <Link to={"#"} className="btn btn__primary">Download CV</Link> */}
-                            <a target="_blank" rel="noopener noreferrer" href={resume} className="btn btn__primary" download="Resume">
+                            <a target="_blank" rel="noopener noreferrer" href="../../assets/img/resume.pdf" className="btn btn__primary">
                                 Download CV
                             </a>
                             <Link to="/contact" className="btn btn__secondary">Contact</Link>
