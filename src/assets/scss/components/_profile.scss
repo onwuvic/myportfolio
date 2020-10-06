@@ -14,19 +14,35 @@
     &__image {
         height: auto;
         width: auto;
-        background-image: url(../../img/cesar-rincon-1024x1024.jpg);
+        // background-image: url(../../img/cesar-rincon-1024x1024.jpg);
+        background-image: url(../../img/profile.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         display: block;
         position: absolute;
         transition: all .2s;
-        top: -18px;
-        bottom: -18px;
-        left: -18px;
+
+        // old picture
+        // top: -18px;
+        // bottom: -18px;
+        // left: -18px;
+        // right: -18px;
+
+        // current profile pic - this will soon be changed
+        top: -3px;
+        bottom: -4px;
+        left: -150px;
         right: -18px;
 
         &:hover {
             background-position: calc(50% + -4.21154px) calc(50% + 4.05181px);
+        }
+
+        @include responsive(ipad) {
+            top: -3px;
+            bottom: -4px;
+            left: -100px;
+            right: -18px;
         }
     }
 }
