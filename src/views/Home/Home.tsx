@@ -26,7 +26,7 @@ const Home = () => (
                         </p>
                         <br/>
                         <p className="paragraph-md">
-                            In my spare time, I enjoy reading, watching Anime and I am an aspiring Photographer.
+                            In my spare time, I enjoy reading, watching Anime, playing video games, and I am an aspiring Photographer.
                         </p>
                         <div className="u-margin-top-small">
                             <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/12vEayHOX-WfZkvOZ95nSB6yX29tguVFg/view?usp=sharing" className="btn btn__primary">

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faTwitter, faLinkedinIn, faMediumM } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faTwitter, faLinkedinIn, faMediumM, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => (
     <footer className="footer">
@@ -24,6 +24,11 @@ const Footer = () => (
                 <li className="footer__social-item">
                     <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@victoronwuzor" className="footer__social-link">
                         <FontAwesomeIcon icon={faMediumM} />
+                    </a>
+                </li>
+                <li className="footer__social-item">
+                    <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/5954989/okwyvic" className="footer__social-link">
+                        <FontAwesomeIcon icon={faStackOverflow} />
                     </a>
                 </li>
             </ul>
