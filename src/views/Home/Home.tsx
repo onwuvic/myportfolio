@@ -18,7 +18,7 @@ const Home = () => (
                         <h4 className="heading-sub">Full Stack Software Engineer</h4>
                         <h1 className="heading-primary">Victor Onwuzor</h1>
                         <p className="paragraph-md">
-                            I am a Fullstack JavaScript Software Engineer with 4 years experience building innovative solutions for globally distributed teams.
+                            I am a Full stack Software Engineer with 4 years of experience building innovative solutions for globally distributed teams.
                         </p>
                         <br/>
                         <p className="paragraph-md">
@@ -29,7 +29,7 @@ const Home = () => (
                             In my spare time, I enjoy reading, watching Anime, playing video games, and I am an aspiring Photographer.
                         </p>
                         <div className="u-margin-top-small">
-                            <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/12vEayHOX-WfZkvOZ95nSB6yX29tguVFg/view?usp=sharing" className="btn btn__primary">
+                            <a target="_blank" rel="noopener noreferrer" href="/resume.pdf" className="btn btn__primary">
                                 Download CV
                             </a>
                             <Link to="/contact" className="btn btn__secondary">Contact</Link>
