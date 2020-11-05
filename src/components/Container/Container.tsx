@@ -1,4 +1,5 @@
 import React from 'react';
+import './Container.scss';
 
 type Props = {
     children: React.ReactNode;
@@ -7,7 +8,7 @@ type Props = {
 const Container = (props: Props) => {
     const { children } = props;
     return (
-        <div className="container">
+        <div className="Container">
             {children}
         </div>
     );
