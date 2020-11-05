@@ -1,11 +1,12 @@
 import React from 'react'
+import './Skill.scss';
 
 type Props = {
     skills: string[];
 }
 
 const Skill = (props: Props) => (
-    <div className="skills">
+    <div className="Skills">
         <ul>
             {
                 props.skills.map(skill => (<li key={skill}>{skill}</li>))
