@@ -1,6 +1,6 @@
 @import '../../assets/scss/abstracts/mixins';
 
-.Container  {
+.container  {
     padding: 6rem 7rem;
 
     @include responsive(ipad) {

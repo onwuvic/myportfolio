@@ -6,7 +6,7 @@ type Props = {
 }
 
 const Skill = (props: Props) => (
-    <div className="Skills">
+    <div className="skills">
         <ul>
             {
                 props.skills.map(skill => (<li key={skill}>{skill}</li>))
