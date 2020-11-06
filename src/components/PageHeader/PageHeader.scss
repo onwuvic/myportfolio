@@ -1,3 +1,6 @@
+@import '../../assets/scss/abstracts/variables';
+@import '../../assets/scss/abstracts/mixins';
+
 .page-header {
     background-color: $color-grey-dark-8;
     border-top: 2px solid $color-grey-dark-10;

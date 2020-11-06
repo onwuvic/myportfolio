@@ -1,5 +1,6 @@
 import React from 'react';
 import HeadingPrimary from '../Headings/HeadingPrimary';
+import './PageHeader.scss';
 
 type Props = {
     title: string;
