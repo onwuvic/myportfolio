@@ -11,7 +11,6 @@
 // LAYOUTS
 @import 'layout/layout';
 @import 'layout/grid';
-@import 'layout/container';
 
 // SECTIONS
 @import 'sections/section-profile';
@@ -19,14 +18,10 @@
 @import 'sections/section-blog';
 
 // COMPONENTS
-@import 'components/header';
 @import 'components/profile';
 @import 'components/button';
 @import 'components/timeline';
-@import 'components/skills';
 @import 'components/project';
-@import 'components/page-header';
 @import 'components/tab';
 @import 'components/card';
-@import 'components/footer';
 @import 'components/contact';

@@ -59,13 +59,19 @@
     },
     "blogs": [
         {
+            "title": "How to Build a Generic Form Validator in Angular",
+            "body": "Building an Angular application that involves many forms can be stressful. Especially so when you have to handle the validation messages on each component. One way to reduce your stress is to write a generic validation class that handles all your validation messages....",
+            "date": "NOVEMBER 03, 2020",
+            "link": "https://www.freecodecamp.org/news/angular-generic-form-validator/"
+        },
+        {
             "title": "How to Build Web APIs with NestJS, Postgres, and Sequelize - A Beginner's Guide",
             "body": "NestJS is an MVC framework for building efficient, scalable Node.js server-side applications. It is built with and fully supports TypeScript (yet still enables developers to code in pure JavaScript). It also combines elements of Object Oriented Programming, Functional Programming, and Functional Reactive Programming...",
             "date": "JUNE 15, 2020",
             "link": "https://www.freecodecamp.org/news/build-web-apis-with-nestjs-beginners-guide/"
         },
         {
-            "title": "How to use the addScope() method in Sequelize",
+            "title": "How to use the addScope method in Sequelize",
             "body": "Sequelize scoping allows you to define commonly used queries that you can easily use later. Scopes are defined in the model definition and can be finder objects, or functions returning finder objects...",
             "date": "DECEMBER 02, 2019",
             "link": "https://medium.com/@victoronwuzor/how-to-use-the-addscope-method-in-sequelize-69867e613909"
