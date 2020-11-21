@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ReactGA from "react-ga";
+// import { createBrowserHistory } from 'history';
 
 import './assets/scss/main.scss';
 import Header from './components/Header/Header';
@@ -16,7 +18,25 @@ const isMobileMenu = function() {
   return true;
 }
 
+
+
 const App: React.FC = () => {
+  
+  // const history = createBrowserHistory();
+
+  useEffect(() => {
+    ReactGA.initialize('G-YSEQPWBTC9');
+    ReactGA.set({ page: window.location.pathname });
+    ReactGA.pageview(window.location.pathname);
+  }, [])
+
+  // history.listen(location => {
+  //   console.log('---->', location);
+  //     // ReactGA.initialize('G-YSEQPWBTC9');
+  //     // ReactGA.set({ page: location.pathname }); // Update the user's current page
+  //     // ReactGA.pageview(location.pathname); // Record a pageview for the given page
+  // });
+
   return (
     <div className={`layout ${isMobileMenu() ? '': 'transition-flip-in-right'}`}>
       <Router>
