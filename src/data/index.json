@@ -1,8 +1,16 @@
 {
     "experiences": [
         {
-            "start": "Feb 2020",
+            "start": "Apr 2021",
             "end": "Present",
+            "company": "Construyo (Berlin, Germany)",
+            "role": "Fullstack Software Engineer",
+            "description": "Discussing product road map with the dev and product team. Creating stories for road map tasks. Writing down implementation plan for each task . Writing the code/test for tasks. Code Review. Onboarding new engineer to the team.",
+            "link": "https://www.construyo.de/"
+        },
+        {
+            "start": "Feb 2020",
+            "end": "Mar 2021",
             "company": "LevelTen Energy, Inc. (Washington, USA. Remote)",
             "role": "Fullstack Software Engineer",
             "description": "Redesign the UI and build API's to integrate European markets into LevelTen platforms.",
