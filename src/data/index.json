@@ -67,6 +67,12 @@
     },
     "blogs": [
         {
+            "title": "How to setup Sequelize migration in a NestJS Project",
+            "body": "When building your backend application with Sequelize, you need a way to ensure your database is in sync with changes made in your model schemas. Sequelize provides three ways to do this....",
+            "date": "FEBRUARY 13, 2021",
+            "link": "https://victoronwuzor.medium.com/how-to-setup-sequelize-migration-in-a-nestjs-project-b4aec1f88612/"
+        },
+        {
             "title": "How to Build a Generic Form Validator in Angular",
             "body": "Building an Angular application that involves many forms can be stressful. Especially so when you have to handle the validation messages on each component. One way to reduce your stress is to write a generic validation class that handles all your validation messages....",
             "date": "NOVEMBER 03, 2020",
