@@ -62,7 +62,7 @@
         "databases": ["MongoDB/Mongoose", "PostgreSQL/Sequelize", "MySQL", "Redis", "SQL"],
         "testing": ["Mocha/Chai", "Jest", "Jasmine", "Protractor"],
         "integration": ["Circle CI", "Travis CI", "Code Climate"],
-        "infrastructure": ["Heroku", "Google Cloud Platform", "Netify", "Vercel"],
+        "infrastructure": ["Heroku", "Google Cloud Platform", "Netify", "Vercel", "Firebase"],
         "api": ["REST", "GraphQL"]
     },
     "blogs": [
