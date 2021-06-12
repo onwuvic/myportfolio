@@ -1,8 +1,16 @@
 {
     "experiences": [
         {
-            "start": "Feb 2020",
+            "start": "Apr 2021",
             "end": "Present",
+            "company": "Construyo (Berlin, Germany)",
+            "role": "Fullstack Software Engineer",
+            "description": "Discussing product road map with the dev and product team. Creating stories for road map tasks. Writing down implementation plan for each task . Writing the code/test for tasks. Code Review. Onboarding new engineer to the team.",
+            "link": "https://www.construyo.de/"
+        },
+        {
+            "start": "Feb 2020",
+            "end": "Mar 2021",
             "company": "LevelTen Energy, Inc. (Washington, USA. Remote)",
             "role": "Fullstack Software Engineer",
             "description": "Redesign the UI and build API's to integrate European markets into LevelTen platforms.",
@@ -54,10 +62,16 @@
         "databases": ["MongoDB/Mongoose", "PostgreSQL/Sequelize", "MySQL", "Redis", "SQL"],
         "testing": ["Mocha/Chai", "Jest", "Jasmine", "Protractor"],
         "integration": ["Circle CI", "Travis CI", "Code Climate"],
-        "infrastructure": ["Heroku", "Google Cloud Platform", "Netify", "Vercel"],
+        "infrastructure": ["Heroku", "Google Cloud Platform", "Netify", "Vercel", "Firebase"],
         "api": ["REST", "GraphQL"]
     },
     "blogs": [
+        {
+            "title": "How to setup Sequelize migration in a NestJS Project",
+            "body": "When building your backend application with Sequelize, you need a way to ensure your database is in sync with changes made in your model schemas. Sequelize provides three ways to do this....",
+            "date": "FEBRUARY 13, 2021",
+            "link": "https://victoronwuzor.medium.com/how-to-setup-sequelize-migration-in-a-nestjs-project-b4aec1f88612/"
+        },
         {
             "title": "How to Build a Generic Form Validator in Angular",
             "body": "Building an Angular application that involves many forms can be stressful. Especially so when you have to handle the validation messages on each component. One way to reduce your stress is to write a generic validation class that handles all your validation messages....",
