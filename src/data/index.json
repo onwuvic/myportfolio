@@ -1,8 +1,16 @@
 {
     "experiences": [
         {
-            "start": "Apr 2021",
+            "start": "Feb 2023",
             "end": "Present",
+            "company": "HeyCar (Berlin, Germany)",
+            "role": "Senior Frontend Engineer",
+            "description": "Write production-ready clean code, ensure the testing pyramid is followed, and Consistently design code aligned with the overall service architecture, make technical decisions in alignment with the organization's engineering technical vision, Identify and escalate potential risks in the team's domain to engineering managers. and mentor junior engineers.",
+            "link": "https://hey.car/"
+        },
+        {
+            "start": "Apr 2021",
+            "end": "Aug 2022",
             "company": "Construyo (Berlin, Germany)",
             "role": "Fullstack Software Engineer",
             "description": "Discussing product road map with the dev and product team. Creating stories for road map tasks. Writing down implementation plan for each task . Writing the code/test for tasks. Code Review. Onboarding new engineer to the team.",
@@ -58,11 +66,11 @@
     ],
     "skills": {
         "basics": ["JavaScript", "TypeScript", "NodeJs", "HTML5", "CSS3/SASS"],
-        "libraries": ["ExpressJS", "SailsJS", "NestJS", "Fastify", "Angular 2+", "React/Redux"],
+        "libraries": ["NextJS", "ExpressJS", "SailsJS", "NestJS", "Fastify", "Angular 2+", "React/Redux"],
         "databases": ["MongoDB/Mongoose", "PostgreSQL/Sequelize", "MySQL", "Redis", "SQL"],
-        "testing": ["Mocha/Chai", "Jest", "Jasmine", "Protractor"],
+        "testing": ["React Testing Library", "Mocha/Chai", "Jest", "Jasmine", "Protractor"],
         "integration": ["Circle CI", "Travis CI", "Code Climate"],
-        "infrastructure": ["Heroku", "Google Cloud Platform", "Netify", "Vercel", "Firebase"],
+        "infrastructure": ["Heroku", "Google Cloud Platform", "Netify", "Vercel", "Firebase", "AWS"],
         "api": ["REST", "GraphQL"]
     },
     "blogs": [
