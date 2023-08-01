@@ -12,7 +12,7 @@ import Skill from '../../components/Skill/Skill';
 
 const Resume = () => (
     <Section>
-        <PageHeader title="Resume" subTitle="4 Years of Experience" />
+        <PageHeader title="Resume" subTitle="6+ Years of Experience" />
 
         <Container>
             <GridContainer>
